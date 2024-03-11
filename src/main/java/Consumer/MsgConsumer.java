@@ -13,8 +13,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 public class MsgConsumer {
 
     static ConnectionFactory factory = new ConnectionFactory();
-    static String rabbitmqUrl = "172.31.16.86";
-    static int connectionSize = 20;
+    static String rabbitmqUrl = "172.31.22.58";
+    static int connectionSize = 60;
     static String queueName = "skierQueue";
 
     public static ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(connectionSize);

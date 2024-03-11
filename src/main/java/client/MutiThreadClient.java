@@ -26,7 +26,11 @@ public class MutiThreadClient {
     every thread send 20 request
      */
 
-    static String baseUrl = "http://34.215.61.209:8080/assignment2";
+    static String baseUrl = "http://lb-1496298574.us-west-2.elb.amazonaws.com/assignment2";
+//            "http://34.222.23.232:8080/assignment2";
+//
+//
+//            "http://18.246.191.78:8080/assignment2";
     static int initialThreadNum = 32;
 
     static int initialPostNumOfPerThread = 1000;

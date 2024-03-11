@@ -9,8 +9,8 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 
 public class RabbitMQConnectionPool {
-    private static final String rabbitmqUrl = "172.31.16.86";
-    private static final int conectionPoolSize = 10;
+    private static final String rabbitmqUrl = "172.31.22.58";
+    private static final int conectionPoolSize = 60;
     private static ObjectPool<Connection> connectionPool;
 
     static {
